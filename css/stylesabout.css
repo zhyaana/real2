@@ -1,0 +1,78 @@
+.about-page{
+    background: #fff;
+    /* padding-bottom: 2rem; */
+}
+.about-page .nav ul li a{
+    color: #041562;
+  }
+.about-page .nav ul li a:hover{
+    color: #DA1212;
+}
+.about-banner .join-btn{
+    display: inline-block;
+    text-align: center;
+   width: 150px;
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+   background: #DA1212;
+   padding: 0.4rem 0;
+   border-radius: 3px;
+   font-size: 1.2rem;
+   font-weight: 600;
+   text-transform: capitalize;
+}
+.about-banner{
+    padding-bottom: 2rem;
+}
+/* ===========team section ========== */
+.team-content{
+    padding: 0 2rem;
+}
+.team {
+    text-align: center;
+    margin-top: 3rem;
+    color: #041562;
+}
+.team h2{
+    font-size: 2.8rem;
+}
+.team .img{
+    width: 150px;
+    height: 150px;
+    margin-right: 2rem;
+    border-radius: 50%;
+}
+.person  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.single-person{
+    width: 100%;
+}
+.single-person:nth-of-type(even)  .person .detail{
+   text-align: right;
+   width: 80%;
+   text-align: right;
+}
+.single-person:nth-of-type(even)  .person .img{
+  margin-left: 2rem;
+  margin-right:0 ;
+  width: 150px;
+  height: 150px;
+ }
+
+.person{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.person .detail h5{
+ color: #041562;
+}
+
+
+.slogans{
+    clear: both;
+}

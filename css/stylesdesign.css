@@ -1,0 +1,33 @@
+.design-page{
+    background: #fff;
+    /* padding-bottom: 2rem; */
+}
+.design-page .nav ul li a{
+    color: #041562;
+  }
+.design-page .nav ul li a:hover{
+    color: #DA1212;
+}
+
+.design-banner{
+    margin-top: 0;
+    padding-bottom: 2rem;
+    
+}
+.design-banner  .about-image-right {
+  position: absolute;
+  top: 3rem;
+}
+.design-banner  .about-image-right .services-right-dec{
+    position: absolute;
+    right: 0;
+}
+.design-banner  .about-image-right .services-right-dec .squre{
+   width: 50px;
+   height: 20px;
+}
+
+
+.slogans{
+    clear: both;
+}
